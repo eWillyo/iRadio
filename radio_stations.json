@@ -1,0 +1,79 @@
+{
+"stations": [
+                { "name" : 		"Evropa 2",
+                  "pronounced" : "evropu dvě",
+                  "url" :  		"http://ice.actve.net/fm-evropa2-128" },
+                  
+                { "name" : 		"Frekvence 1", 
+                  "pronounced" : "frekvenci 1",
+                  "url" :  		"http://ice.actve.net/fm-frekvence1-128" },
+                  
+                { "name" : 		"ČRo Wave", 
+                  "pronounced" : "český rozhlas vejv",
+                  "url" :  		"https://rozhlas.stream/wave_mp3_256.mp3" },
+                  
+                { "name" : 		"Country radio", 
+                  "pronounced" : "kauntry rádio",
+                  "url" :  		"http://icecast4.play.cz/country128.mp3" },
+                  
+                { "name" : 		"Radio Jih", 
+                  "pronounced" : "rádio jih",
+                  "url" :  		"http://icecast6.play.cz/jih128.mp3" },
+                  
+                { "name" : 		"Radio Čas Rock",
+                  "pronounced" : "rádio čas rok",
+                  "url" :  		"http://icecast6.play.cz:80/casrock128.mp3" },
+                  
+                { "name" : 		"Český rozhlas 1",
+                  "pronounced" : "český rozhlas 1",
+                  "url" :  		"http://icecast8.play.cz/cro1-128.mp3" },
+                  
+                { "name" : 		"Český rozhlas Brno", 
+                  "pronounced" : "český rozhlas brno",
+                  "url" :  		"https://rozhlas.stream/brno_mp3_128.mp3" },
+                  
+                { "name" : 		"Český rozhlas Jazz",
+                  "pronounced" : "český rozhlas džez",
+                  "url" :  		"https://rozhlas.stream/jazz_mp3_256.mp3" },
+                
+                { "name" : 		"Impuls", 
+                  "pronounced" : "impuls",
+                  "url" :  		"http://icecast6.play.cz/cesky-impuls.mp3" },
+                
+                { "name" : 		"Kiss Hády",
+                  "pronounced" : "kis hády",
+                  "url" :  		"http://icecast8.play.cz/kisshady128.mp3" },
+                
+                { "name" : 		"Radio Beat", 
+                  "pronounced" : "rádio být",
+                  "url" :  		"http://icecast2.play.cz/radiobeat128.mp3" },
+                
+                { "name" : 		"Rock radio",
+                  "pronounced" : "rok rádio",
+                  "url" :  		"http://ice.abradio.cz/rockradio128.mp3" },
+                
+                { "name" : 		"Rock Zone", 
+                  "pronounced" : "rok zoun",
+                  "url" :  		"http://icecast5.play.cz/rockzone128.mp3" },
+                
+                { "name" : 		"Blaník", 
+                  "pronounced" : "blaník",
+                  "url" :  		"http://ice.abradio.cz/blanikcz128.mp3" },
+                
+                { "name" : 		"Radio Hey",
+                  "pronounced" : "rádio hej",
+                  "url":   		"http://icecast3.play.cz/hey-radio128.mp3" },
+                
+                { "name" : 		"ČRo plus",
+                  "pronounced" : "český rozhlas plus",
+                  "url" :  		"https://rozhlas.stream/plus_mp3_256.mp3" },
+                
+                { "name" : 		"Krokodýl", 
+                  "pronounced" : "krokodýl",
+                  "url" :  		"http://icecast4.play.cz/krokodyl128.mp3" },
+                
+                { "name" : 		"Hit radio 80", 
+                  "pronounced" : "hit rádio osmdesátka",
+                  "url" :  		"http://ice.abradio.cz/hit80128.mp3" }
+            ]
+}
