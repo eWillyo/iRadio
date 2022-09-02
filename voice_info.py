@@ -9,17 +9,23 @@ month = ["ledna", "února", "března", "dubna", "května", "června", "července
 
 
 def say_text(text):
-    print(text)
+    #print(text)
     os.popen(VOICE_COMMAND % (text))
+    return text
 
 def say_station(station):
     command = "Posloucháte %s" % station
-    print(command)
+    #print(command)
     os.popen(VOICE_COMMAND % (command))
+    return command
     
-def say_time():
+def get_time():
     now = datetime.datetime.now()
     weekday = now.weekday()
-    command = "Je právě %d %d a je %s %d %s" % (now.hour, now.minute, day_of_week[weekday], now.day, month[now.month-1])
-    print(command)
-    os.popen(VOICE_COMMAND % (command))    
+    return "Je právě %d %d a je %s %d %s" % (now.hour, now.minute, day_of_week[weekday], now.day, month[now.month-1])
+
+def say_time():
+    command = get_time()
+    #print(command)
+    os.popen(VOICE_COMMAND % (command))
+    return command
