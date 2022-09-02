@@ -71,8 +71,6 @@ class iRadio:
         
     def play(self):
         Media = self.instance.media_new(self.stations[self.current_station]["url"])
-        #self.player.audio_set_volume(self.volume)
-        #self.getVoiceInfo(self.getStationName())
         Media.get_mrl()
         self.player.set_media(Media)
         
@@ -85,7 +83,7 @@ class iRadio:
         
         self.state = 'on'
         
-        #save config
+        # save config
         p = self.config_dict['radio_config']
         p['state'] = self.state
         self.save_config()
@@ -97,7 +95,7 @@ class iRadio:
         print("Stop..")
         self.state = 'off'
         
-        #save config
+        # save config
         p = self.config_dict['radio_config']
         p['state'] = self.state
         self.save_config()
@@ -116,7 +114,7 @@ class iRadio:
             return
         #self.play()
         
-        #save config
+        # save config
         p = self.config_dict['radio_config']
         p['current_station'] = self.current_station
         self.save_config()
@@ -135,7 +133,7 @@ class iRadio:
             return
         #self.play()
         
-        #save config
+        # save config
         p = self.config_dict['radio_config']
         p['current_station'] = self.current_station
         self.save_config()
