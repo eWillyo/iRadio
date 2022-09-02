@@ -6,8 +6,8 @@ For this project you need Linux based system (e.g. Raspberry OS), some new versi
          
 You can improve iRadio with text-to-speech software - Festival. I used it here to report names of radio stations:
 
-         sudo apt-get update
-         sudo apt-get install festival 
+         sudo apt update
+         sudo apt install festival 
   
 Think about control iRadio with some remote controller connected to your Raspberry Pi.. ;-)
 
